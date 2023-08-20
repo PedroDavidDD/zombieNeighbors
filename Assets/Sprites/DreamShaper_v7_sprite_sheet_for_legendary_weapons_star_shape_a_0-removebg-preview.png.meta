@@ -1,0 +1,659 @@
+fileFormatVersion: 2
+guid: 6b1be35ea8b71ea4c9d7fb0a3ed0d781
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6935364895464999184
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_0
+  - first:
+      213: -8383574648609242749
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_1
+  - first:
+      213: 974941874930163865
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_2
+  - first:
+      213: -207501998650363098
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_3
+  - first:
+      213: 6775558500093485548
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_4
+  - first:
+      213: 6918257338229080227
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_5
+  - first:
+      213: -6028509737388356008
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_6
+  - first:
+      213: 2561228862079570890
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_7
+  - first:
+      213: 8765861984381528269
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_8
+  - first:
+      213: 7086052743944279449
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_9
+  - first:
+      213: -7673166622570217390
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_10
+  - first:
+      213: -3137997154002232552
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_11
+  - first:
+      213: -3474786352414633918
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_12
+  - first:
+      213: 6577128897437549929
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_13
+  - first:
+      213: 4184285407597525679
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_14
+  - first:
+      213: 2567176293724375136
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_15
+  - first:
+      213: 1300719328045500540
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_16
+  - first:
+      213: -4326817520751896446
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_17
+  - first:
+      213: 4638068527683047945
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_18
+  - first:
+      213: 3317442333144268139
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_19
+  - first:
+      213: 6136034723595809440
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_20
+  - first:
+      213: -5317399391886387141
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_21
+  - first:
+      213: -4058040326527364767
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_22
+  - first:
+      213: -4775456307987160794
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_23
+  - first:
+      213: 269009521984723782
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_24
+  - first:
+      213: 7082660386596305013
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_25
+  - first:
+      213: -6308482170416178019
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_26
+  - first:
+      213: 9033004868702206522
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_27
+  - first:
+      213: -3573619789372736874
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_28
+  - first:
+      213: 5686880840751314013
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_29
+  - first:
+      213: -3937493282570800901
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_30
+  - first:
+      213: 8017732475134440384
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_31
+  - first:
+      213: 708768126572726678
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_32
+  - first:
+      213: -2792073758188212307
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_33
+  - first:
+      213: 2918964981893618759
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_34
+  - first:
+      213: 5694680279503670529
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_35
+  - first:
+      213: -3247888705710124726
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_36
+  - first:
+      213: 1286993915878637950
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_37
+  - first:
+      213: 5345245912761238034
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_38
+  - first:
+      213: 1899780498487781287
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_39
+  - first:
+      213: 3020506019660040170
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_40
+  - first:
+      213: 8480759852113914510
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_41
+  - first:
+      213: -1167874206902980371
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_42
+  - first:
+      213: 3933144024108685758
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_43
+  - first:
+      213: 3780242832150875824
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_44
+  - first:
+      213: 1495728754149812647
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_45
+  - first:
+      213: -3855272821209660091
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_46
+  - first:
+      213: -3504724900446974758
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_47
+  - first:
+      213: 6967958702769737039
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_48
+  - first:
+      213: -7607629966195540538
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_49
+  - first:
+      213: -5633293621906854707
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_50
+  - first:
+      213: -5799735267156263133
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_51
+  - first:
+      213: 1358505327126224322
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_52
+  - first:
+      213: 2073071658317164093
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_53
+  - first:
+      213: -7509025897781322950
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_54
+  - first:
+      213: -8654634835427043
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_55
+  - first:
+      213: -5012885374689836407
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_56
+  - first:
+      213: -5138377589979555518
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_57
+  - first:
+      213: 7394696522544755931
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_58
+  - first:
+      213: -7709028596578245241
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_59
+  - first:
+      213: -7200089461122573516
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_60
+  - first:
+      213: 6266863377942567292
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_61
+  - first:
+      213: 2036179382272409702
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_62
+  - first:
+      213: 5329357968629689603
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_63
+  - first:
+      213: 7483365889737188885
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_64
+  - first:
+      213: -6987348593662453092
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_65
+  - first:
+      213: -6121388306525706333
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_66
+  - first:
+      213: 4686184230076253352
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_67
+  - first:
+      213: 1464083159622947856
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_68
+  - first:
+      213: 8166289053904315623
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_69
+  - first:
+      213: 8554542585142159715
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_70
+  - first:
+      213: -1502237939636661441
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_71
+  - first:
+      213: 1819363466369291634
+    second: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_72
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 519
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6362d188566c4e4d97e356b6aee32f6
+      internalID: 187213715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 521
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ab273290ead0a4192092274fe8287a
+      internalID: 1181524579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 525
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7534735334ef149a9eecc1e87291a7
+      internalID: 1175661650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 517
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600077a2ff9c30c4b8ab93c07fce1c12
+      internalID: -2003818103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 395
+        width: 83
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263369c1bbcc3e246ac2eb56cdb94b3f
+      internalID: -497683405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 279
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24804ba174b88eb4b99a13ab767d3e5c
+      internalID: -753623907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 289
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17af1c89487d50f40bc59da736a56de9
+      internalID: -1114056270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 292
+        width: 65
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9205536279d56e41ab06f33088d1696
+      internalID: -1733391530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 213
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594b8d8c44edfa448a856f5094197696
+      internalID: 554649324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 162
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ca139a3c610534c9a9e156027f6e3e
+      internalID: 1981485900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 143
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198d52b1146f42b4988f809fb8c3e2f0
+      internalID: -1607273686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 521
+        width: 65
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99136572873a2ad4bbf58a02aea21fe3
+      internalID: -1081558448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 82ec7f6048ea2164894ed6af8c5b7bf2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_0: 187213715
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_1: 1181524579
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_10: 45755411
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_11: -2042058433
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_12: 2094166360
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_13: -806339667
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_14: -1545853745
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_15: -1893516347
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_16: 604827286
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_17: -2064456712
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_18: -497683405
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_19: 346406162
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_2: 1175661650
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_20: 441851843
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_21: 1026669558
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_22: 28148701
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_23: 818923914
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_24: 786224472
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_25: 468720631
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_26: -2034301561
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_27: -1806993731
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_28: 1594789071
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_29: 606133397
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_3: -2003818103
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_30: -1771710737
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_31: -1277279148
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_32: -204297654
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_33: -753623907
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_34: -1114056270
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_35: -1733391530
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_36: 918310522
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_37: 1386981896
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_38: -707213379
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_39: 392397824
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_4: -1589540994
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_40: 1887002133
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_41: 680800334
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_42: -222688910
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_43: 1921430213
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_44: 554649324
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_45: -490721787
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_46: -1370106181
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_47: 1981485900
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_48: 1854558510
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_49: -339038815
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_5: 991902979
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_50: 1160536655
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_51: -1607273686
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_52: -1981796951
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_53: -197574660
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_54: -1769519018
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_55: 1801041719
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_56: -114130213
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_57: -173986156
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_58: -1714550617
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_59: 996589138
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_6: 1594168613
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_60: 1780750694
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_61: 111243313
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_62: -1413827495
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_63: -1299563178
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_64: -621052076
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_65: 249495017
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_66: 1849694393
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_67: 704310999
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_68: -833557254
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_69: -2017765594
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_7: 601372543
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_70: -490440801
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_71: -906885164
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_72: -401775436
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_73: 682513588
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_74: -232007527
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_75: -1081558448
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_8: -990227789
+      DreamShaper_v7_sprite_sheet_for_legendary_weapons_star_shape_a_0-removebg-preview_9: -1303598965
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
