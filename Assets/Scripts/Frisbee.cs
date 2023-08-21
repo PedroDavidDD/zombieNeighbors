@@ -11,6 +11,8 @@ public class Frisbee : MonoBehaviour
 
     [SerializeField, Header("Cooldown Para regresar")] private float skillTimeCooldown = .5f;
     [SerializeField] private float skillTime;
+
+    [SerializeField] private int damage = 1;
     void Awake()
     {
         rb2D = GetComponent<Rigidbody2D>();
@@ -40,6 +42,35 @@ public class Frisbee : MonoBehaviour
         {
             Die();
         }
+
+        string tag = other.gameObject.tag;
+
+        switch (tag)
+        {
+            case "Door":
+                Door door = other.gameObject.GetComponent<Door>();
+                if (door != null)
+                {
+                    door.TakeDamage(damage);
+                }
+                break;
+            case "Zombie":
+                Zombie zombie = other.gameObject.GetComponent<Zombie>();
+                if (zombie != null)
+                {
+                    zombie.TakeDamage(damage);
+                }
+                break;
+            case "SpawnZombie":
+                SpawnZombie spawnZombie = other.gameObject.GetComponent<SpawnZombie>();
+                if (spawnZombie != null)
+                {
+                    spawnZombie.TakeDamage(damage);
+                }
+                break;
+            default: break;
+        }
+
     }
     private void Die()
     {

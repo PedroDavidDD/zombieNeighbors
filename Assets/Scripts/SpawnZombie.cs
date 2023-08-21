@@ -12,13 +12,14 @@ public class SpawnZombie : MonoBehaviour
     [SerializeField] int maxZombie = 20;
     [SerializeField] private Transform objBborn;
 
+    [SerializeField] bool finCreacionZombies = false;
     void Update()
     {
         // Obtener la cantidad inicial de zombies en la escena
         Zombie[] zombies = FindObjectsOfType<Zombie>();
         zombieCount = zombies.Length;
 
-        if (0 < maxZombie)
+        if (zombieCount < maxZombie && !finCreacionZombies)
         {
             if (time >= cooldown && zombie != null)
             {
@@ -32,6 +33,10 @@ public class SpawnZombie : MonoBehaviour
             {
                 time += Time.deltaTime;
             }
+        }
+        else
+        {
+            finCreacionZombies = true;
         }
     }
     public void TakeDamage(int damage)

@@ -1,7 +1,8 @@
 using UnityEngine;
 public class Zombie : MonoBehaviour
 {
-    [SerializeField] private int lifeZombie = 5;
+    [SerializeField] private int lifeZombie = 10;
+    [SerializeField] private int damage = 10;
     private Rigidbody2D rb2D;
 
     private void Awake()
@@ -24,11 +25,21 @@ public class Zombie : MonoBehaviour
     {
         Destroy(this.gameObject);
     }
-
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionStay2D(Collision2D other)
     {
-        
+        string tag = other.gameObject.tag;
+
+        switch (tag)
+        {
+            case "Player":
+                Life life = other.gameObject.GetComponent<Life>();
+                if (life != null)
+                {
+                    life.TakeDamage(damage);
+                }
+                break;
+            default: break;
+        }
     }
 }
  

@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
     [SerializeField, Header("Punto de disparo")] private GameObject triggerPoint;
     [SerializeField, Header("Cooldown Habilidades")] private float nextSkillTimeCooldown = 3f;
     [SerializeField] private float nextSkillTime;
+
+    [SerializeField] public bool isLive = true;
     void Start()
     {
         // Almacenar la rotación inicial en el eje Z del personaje
@@ -26,35 +28,39 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
-        LookAtMouse();
-
-        Move();
-
-        if (Input.GetMouseButtonDown(0)) // El 0 representa el botón izquierdo del mouse
+        if (isLive)
         {
-            // Instanciar la bala de pistola en la posición del jugador
-            GameObject newPistolBullet = Instantiate(pistolBulletPrefab,
-                                                     triggerPoint.transform.position,
-                                                     Quaternion.Euler(0f, 0f, transform.eulerAngles.z));
-        }
 
-        if (Input.GetMouseButtonDown(1)) // El 1 representa el botón derecho del mouse
-        {
-            // creo el frisbee
-            GameObject newFrisbee = Instantiate(frisbeePrefab,
-                                                triggerPoint.transform.position,
-                                                Quaternion.Euler(0f, 0f, transform.eulerAngles.z));
-        }
+            LookAtMouse();
 
-        if (nextSkillTime <= 0)
-        {
-            nextSkillTime = nextSkillTimeCooldown;
-        }
-        else
-        {
-            nextSkillTime -= Time.deltaTime;
-        }
+            Move();
 
+            if (Input.GetMouseButtonDown(0)) // El 0 representa el botón izquierdo del mouse
+            {
+                // Instanciar la bala de pistola en la posición del jugador
+                GameObject newPistolBullet = Instantiate(pistolBulletPrefab,
+                                                         triggerPoint.transform.position,
+                                                         Quaternion.Euler(0f, 0f, transform.eulerAngles.z));
+            }
+
+            if (Input.GetMouseButtonDown(1)) // El 1 representa el botón derecho del mouse
+            {
+                // creo el frisbee
+                GameObject newFrisbee = Instantiate(frisbeePrefab,
+                                                    triggerPoint.transform.position,
+                                                    Quaternion.Euler(0f, 0f, transform.eulerAngles.z));
+            }
+
+            if (nextSkillTime <= 0)
+            {
+                nextSkillTime = nextSkillTimeCooldown;
+            }
+            else
+            {
+                nextSkillTime -= Time.deltaTime;
+            }
+
+        }
     }
     private void Move()
     {

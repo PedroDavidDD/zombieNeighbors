@@ -6,7 +6,7 @@ public class PistolBullet : Bullet
 {
     private void Start()
     {
-        damage = 1;
+        damage = 2;
         speed = 5f;
     }
     private void Update()

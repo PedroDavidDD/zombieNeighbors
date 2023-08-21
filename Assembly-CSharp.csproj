@@ -60,11 +60,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PistolBullet.cs" />
     <Compile Include="Assets\Scripts\potion.cs" />
+    <Compile Include="Assets\Scripts\Life.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\SpawnZombie.cs" />
     <Compile Include="Assets\Scripts\Frisbee.cs" />
     <Compile Include="Assets\Scripts\CanvasManager.cs" />
     <Compile Include="Assets\Scripts\MoveZombie.cs" />
+    <Compile Include="Assets\Scripts\CreateDoorSpawn.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\Zombie.cs" />

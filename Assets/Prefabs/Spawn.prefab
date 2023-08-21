@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 2750179491926349587}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.586, y: 0, z: 0}
+  m_LocalPosition: {x: 0.001, y: -1.199, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -130,13 +130,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10a67d71dd4049c4c8dec97199814eaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldown: 5
+  cooldown: 3
   time: 0
   zombie:
   - {fileID: 8922819283580027975, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
   - {fileID: 8922819283580027975, guid: a5a9eca1263fb77459546dbf56ae187c, type: 3}
   currentLife: 5
+  maxZombie: 20
   objBborn: {fileID: 4562069057859372005}
+  finCreacionZombies: 0
 --- !u!61 &-9222821209654905952
 BoxCollider2D:
   m_ObjectHideFlags: 0
