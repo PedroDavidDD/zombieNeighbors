@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8922819283580027994}
   - component: {fileID: 8922819283580027992}
   - component: {fileID: 8922819283580027993}
+  - component: {fileID: 4926916713629337432}
   m_Layer: 0
   m_Name: Zombie_Idle
   m_TagString: Zombie
@@ -175,6 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeZombie: 5
+  damage: 10
 --- !u!114 &8922819283580027993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,6 +204,20 @@ MonoBehaviour:
   puntosDeMovimiento: []
   CanWalkForRoom: 1
   minDistancia: 0.1
+--- !u!114 &4926916713629337432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8922819283580027975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbeb6a126b584bc4d98a7def3039f02d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drops:
+  - {fileID: 8522081067818145246, guid: 480234fe6dd31244f8ba50eb1e84edcf, type: 3}
 --- !u!1 &8922819285371983183
 GameObject:
   m_ObjectHideFlags: 0

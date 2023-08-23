@@ -1,8 +1,10 @@
+using NUnit.Framework;
 using UnityEngine;
 public class Zombie : MonoBehaviour
 {
     [SerializeField] private int lifeZombie = 10;
     [SerializeField] private int damage = 10;
+    public static bool dead = false;
     private Rigidbody2D rb2D;
 
     private void Awake()
@@ -18,6 +20,9 @@ public class Zombie : MonoBehaviour
         lifeZombie -= damage;
         if (lifeZombie <= 0)
         {
+            DropMobs dropMobs = GetComponent<DropMobs>();
+            dropMobs.CreateDropsForMobs();
+
             Die();
         }
     }

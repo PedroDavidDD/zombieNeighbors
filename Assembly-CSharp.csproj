@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\SpawnZombie.cs" />
     <Compile Include="Assets\Scripts\Frisbee.cs" />
     <Compile Include="Assets\Scripts\CanvasManager.cs" />
+    <Compile Include="Assets\Scripts\DropMobs.cs" />
     <Compile Include="Assets\Scripts\MoveZombie.cs" />
     <Compile Include="Assets\Scripts\CreateDoorSpawn.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
