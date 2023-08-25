@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8024756428588294737}
   m_Layer: 0
   m_Name: Frisbee
-  m_TagString: Untagged
+  m_TagString: Frisbee
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   frisbeeSpeed: 5
-  frisbeeTime: 0
   player: {fileID: 0}
   skillTimeCooldown: 0.5
   skillTime: 0
+  damage: 1

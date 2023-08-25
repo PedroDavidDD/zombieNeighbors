@@ -14,6 +14,9 @@ public class CanvasManager : MonoBehaviour
 
     [SerializeField] private GameObject textDie;
 
+    [SerializeField] public Slider sliderOrbs;
+    [SerializeField] public static float amountSliderOrbs;
+
     private void Awake()
     {
         textPotion = GameObject.Find("TextPotion").GetComponent<Text>();
@@ -29,7 +32,7 @@ public class CanvasManager : MonoBehaviour
         textPotion.text = amountPotion.ToString();
 
         Life life = GameObject.Find("Player").gameObject.GetComponent<Life>();
-        if (life != null )
+        if (life != null)
         {
             textLife.text = life.getCurrentLife().ToString();
             if (life.getCurrentLife() == 0)
@@ -39,12 +42,15 @@ public class CanvasManager : MonoBehaviour
         }
 
         // Obtener la cantidad inicial de zombies en la escena
-        Zombie[] zombies = FindObjectsOfType<Zombie>();        
+        Zombie[] zombies = FindObjectsOfType<Zombie>();
         textZombies.text = zombies.Length.ToString();
 
+        sliderOrbs.value = amountSliderOrbs;
     }
+
     public void AmountTextPotion(int cantidad)
     {
         amountPotion += cantidad;
     }
+
 }

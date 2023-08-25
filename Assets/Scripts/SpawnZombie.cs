@@ -16,8 +16,8 @@ public class SpawnZombie : MonoBehaviour
     void Update()
     {
         // Obtener la cantidad inicial de zombies en la escena
-        Zombie[] zombies = FindObjectsOfType<Zombie>();
-        zombieCount = zombies.Length;
+        /*Zombie[] zombies = FindObjectsOfType<Zombie>();
+        zombieCount = zombies.Length;*/
 
         if (zombieCount < maxZombie && !finCreacionZombies)
         {

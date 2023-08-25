@@ -8,6 +8,9 @@ TagManager:
   - Door
   - Zombie
   - SpawnZombie
+  - Orbs
+  - Potion
+  - Frisbee
   layers:
   - Default
   - TransparentFX
