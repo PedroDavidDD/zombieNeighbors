@@ -11,7 +11,7 @@ public class Orbes : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            CanvasManager.amountSliderOrbs += (points / 100);
+            CanvasManager.amountSliderOrbs += (points);
             Destroy(gameObject);
         }
     }

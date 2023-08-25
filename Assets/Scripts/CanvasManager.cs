@@ -1,3 +1,5 @@
+using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,6 +17,7 @@ public class CanvasManager : MonoBehaviour
     [SerializeField] private GameObject textDie;
 
     [SerializeField] public Slider sliderOrbs;
+    [SerializeField] private TextMeshProUGUI tmpScore;
     [SerializeField] public static float amountSliderOrbs;
 
     private void Awake()
@@ -25,8 +28,9 @@ public class CanvasManager : MonoBehaviour
 
         textZombies = GameObject.Find("TextZombies").GetComponent<Text>();
 
-    }
+        tmpScore.text = "[" + sliderOrbs.value.ToString() + " / " + sliderOrbs.maxValue.ToString() + "]";
 
+    }    
     void Update()
     {
         textPotion.text = amountPotion.ToString();
@@ -45,7 +49,17 @@ public class CanvasManager : MonoBehaviour
         Zombie[] zombies = FindObjectsOfType<Zombie>();
         textZombies.text = zombies.Length.ToString();
 
-        sliderOrbs.value = amountSliderOrbs;
+        if (sliderOrbs.value == sliderOrbs.maxValue) { 
+            sliderOrbs.maxValue = Math.Abs(sliderOrbs.maxValue + (sliderOrbs.maxValue * .5f));
+            amountSliderOrbs = 0;
+        }else
+        {
+            sliderOrbs.value = amountSliderOrbs;
+            if (tmpScore != null)
+            {
+                tmpScore.text = "[" + sliderOrbs.value.ToString() + " / " + sliderOrbs.maxValue.ToString() + "]";
+            }
+        }
     }
 
     public void AmountTextPotion(int cantidad)
