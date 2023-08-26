@@ -39,7 +39,7 @@ public class CanvasManager : MonoBehaviour
         if (life != null)
         {
             textLife.text = life.getCurrentLife().ToString();
-            if (life.getCurrentLife() == 0)
+            if (life.getCurrentLife() <= 0)
             {
                 textDie.SetActive(true);
             }
@@ -50,9 +50,16 @@ public class CanvasManager : MonoBehaviour
         textZombies.text = zombies.Length.ToString();
 
         if (sliderOrbs.value == sliderOrbs.maxValue) { 
-            sliderOrbs.maxValue = Math.Abs(sliderOrbs.maxValue + (sliderOrbs.maxValue * .5f));
-            amountSliderOrbs = 0;
-        }else
+
+            if (amountSliderOrbs > sliderOrbs.maxValue)
+            {
+                float cacheOrbs = amountSliderOrbs - sliderOrbs.maxValue;
+                amountSliderOrbs = cacheOrbs;
+            }
+
+            sliderOrbs.maxValue = sliderOrbs.maxValue + (sliderOrbs.maxValue * .5f);
+        }
+        else
         {
             sliderOrbs.value = amountSliderOrbs;
             if (tmpScore != null)

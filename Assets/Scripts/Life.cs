@@ -13,12 +13,6 @@ public class Life : MonoBehaviour
     {
         currentLife = maxLife;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-         
-    }
     public void TakeDamage(int damage)
     {
         currentLife -= damage;

@@ -6,8 +6,8 @@ public class PistolBullet : Bullet
 {
     private void Start()
     {
-        damage = 2;
-        speed = 5f;
+        damage = 5;
+        speed = 3f;
     }
     private void Update()
     {
@@ -42,7 +42,7 @@ public class PistolBullet : Bullet
                     zombie.TakeDamage(damage);
                 }
                 break;
-            case "SpawnZombie":
+            case "Skeleton":
                 SpawnZombie spawnZombie = other.gameObject.GetComponent<SpawnZombie>();
                 if (spawnZombie != null)
                 {
@@ -51,6 +51,7 @@ public class PistolBullet : Bullet
                 break;
             default: break;
         }
+        Destroy(this.gameObject);
     }
 
 }

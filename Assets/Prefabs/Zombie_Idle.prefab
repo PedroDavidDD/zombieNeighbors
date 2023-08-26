@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 825e719fe46171245bac4492ecb07d87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeZombie: 5
+  lifeZombie: 10
   damage: 10
 --- !u!114 &8922819283580027993
 MonoBehaviour:
