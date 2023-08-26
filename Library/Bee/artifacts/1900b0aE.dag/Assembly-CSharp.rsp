@@ -464,7 +464,8 @@
 "Assets/Scripts/Orbes.cs"
 "Assets/Scripts/PistolBullet.cs"
 "Assets/Scripts/Player.cs"
-"Assets/Scripts/potion.cs"
+"Assets/Scripts/PotionHeal.cs"
+"Assets/Scripts/PotionSpeed.cs"
 "Assets/Scripts/SpawnZombie.cs"
 "Assets/Scripts/Zombie.cs"
 -langversion:9.0

@@ -28,8 +28,17 @@ public class Life : MonoBehaviour
         Time.timeScale = 0f;
     }
 
-    public float getCurrentLife(){
+    public float getCurrentLife()
+    {
         return this.currentLife;
+    }
+    public void setCurrentLife(float life)
+    {
+        this.currentLife += life;
+    }
+    public float getMaxLife()
+    {
+        return this.maxLife;
     }
 
 }

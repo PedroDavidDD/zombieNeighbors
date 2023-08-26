@@ -47,7 +47,6 @@ public class Player : MonoBehaviour
             {
                 if (Input.GetMouseButtonDown(0)) // El 0 representa el botón izquierdo del mouse
                 {
-                    Debug.Log("dat");
                     // Instanciar la bala de pistola en la posición del jugador
                     GameObject newPistolBullet = Instantiate(pistolBulletPrefab,
                                                              triggerPoint.transform.position,
