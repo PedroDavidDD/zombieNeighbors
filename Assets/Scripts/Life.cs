@@ -34,7 +34,15 @@ public class Life : MonoBehaviour
     }
     public void setCurrentLife(float life)
     {
-        this.currentLife += life;
+        float accumulateLife = this.currentLife + life;
+        if (accumulateLife > maxLife )
+        {
+            this.currentLife = maxLife;
+        }
+        else
+        {
+            this.currentLife += life;
+        }
     }
     public float getMaxLife()
     {

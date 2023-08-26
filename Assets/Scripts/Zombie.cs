@@ -23,8 +23,9 @@ public class Zombie : MonoBehaviour
             DropMobs dropMobs = GetComponent<DropMobs>();
 
             DropOption[] dropOptions = {
-                new DropOption(0.5f, 0),    // 50% para el valor 0
-                new DropOption(0.3f, 1) // 0.3% para el valor 10
+                new DropOption(0.1f, 2), // 0.1% para el valor 10
+                new DropOption(0.2f, 1), // 0.2% para el valor 10
+                new DropOption(0.7f, 0)    // 70% para el valor 0
                 // Puedes agregar más opciones aquí
             };
 

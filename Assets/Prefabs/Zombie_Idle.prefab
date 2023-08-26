@@ -219,6 +219,7 @@ MonoBehaviour:
   drops:
   - {fileID: 49213757265779196, guid: 8c0e65e8a57b15144898abf5f2df2082, type: 3}
   - {fileID: 8522081067818145246, guid: 91912ad256b047d4fae474990fa6b575, type: 3}
+  - {fileID: 49213757265779196, guid: 260a614764ad9ac41995a501a2bdb788, type: 3}
 --- !u!1 &8922819285371983183
 GameObject:
   m_ObjectHideFlags: 0
