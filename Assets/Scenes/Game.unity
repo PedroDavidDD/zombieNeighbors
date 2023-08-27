@@ -25319,6 +25319,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1927027550}
     m_Modifications:
+    - target: {fileID: 184341439550541476, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
+      propertyPath: m_FillAmount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 658979795777557352, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.39
@@ -25338,6 +25342,50 @@ PrefabInstance:
     - target: {fileID: 1201919326892572464, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
       propertyPath: m_LocalPosition.y
       value: 3.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2952422761285820412, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
+      propertyPath: m_FillAmount
+      value: 0.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474185039192304786, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
+      propertyPath: m_FillAmount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179365173622924672, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179365173622924672, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917057349079408167, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183286081811928734, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6183286081811928734, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6324551924993342803, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6324551924993342803, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7578324005605234540, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8677485075925526792, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8922819283580027973, guid: a38e72a66a963cc42a3d306b4e6ec809, type: 3}
       propertyPath: m_RootOrder
@@ -27212,6 +27260,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1927027550}
     m_Modifications:
+    - target: {fileID: 5007639050805938347, guid: a5a9eca1263fb77459546dbf56ae187c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007639050805938347, guid: a5a9eca1263fb77459546dbf56ae187c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8922819283580027973, guid: a5a9eca1263fb77459546dbf56ae187c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.1400962
@@ -32440,6 +32496,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1927027550}
     m_Modifications:
+    - target: {fileID: 5007639050805938347, guid: a5a9eca1263fb77459546dbf56ae187c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007639050805938347, guid: a5a9eca1263fb77459546dbf56ae187c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8922819283580027972, guid: a5a9eca1263fb77459546dbf56ae187c, type: 3}
       propertyPath: m_Sprite
       value: 

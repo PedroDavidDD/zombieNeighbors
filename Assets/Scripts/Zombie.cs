@@ -2,14 +2,22 @@ using System;
 using UnityEngine;
 public class Zombie : MonoBehaviour
 {
-    [SerializeField] private int lifeZombie = 10;
+    [SerializeField] private int currentLifeZombie;
+    [SerializeField] private int maxLifeZombie = 10;
     [SerializeField] private int damage = 10;
     public static bool dead = false;
     private Rigidbody2D rb2D;
+    [SerializeField] private FloatingHealthBar floatingHealthBar;
 
     private void Awake()
     {
         rb2D = GetComponent<Rigidbody2D>();
+        floatingHealthBar = GetComponentInChildren<FloatingHealthBar>();
+    }
+    private void Start()
+    {
+        currentLifeZombie = maxLifeZombie;
+        floatingHealthBar?.UpdateFloatingHealthBar(currentLifeZombie, maxLifeZombie);
     }
     private void Update()
     {
@@ -17,8 +25,11 @@ public class Zombie : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        lifeZombie -= damage;
-        if (lifeZombie <= 0)
+        currentLifeZombie -= damage;
+
+        floatingHealthBar?.UpdateFloatingHealthBar(currentLifeZombie, maxLifeZombie);
+
+        if (currentLifeZombie <= 0)
         {
             DropMobs dropMobs = GetComponent<DropMobs>();
 

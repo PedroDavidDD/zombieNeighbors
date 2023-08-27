@@ -457,6 +457,7 @@
 "Assets/Scripts/CreateDoorSpawn.cs"
 "Assets/Scripts/Door.cs"
 "Assets/Scripts/DropMobs.cs"
+"Assets/Scripts/FloatingHealthBar.cs"
 "Assets/Scripts/Frisbee.cs"
 "Assets/Scripts/Life.cs"
 "Assets/Scripts/MainMenu.cs"
