@@ -62,7 +62,7 @@ public class CanvasManager : MonoBehaviour
         else
         {
             sliderOrbs.value = amountSliderOrbs;
-            if (tmpScore != null)
+            if (tmpScore != null && sliderOrbs.maxValue < 2000)
             {
                 tmpScore.text = "[" + sliderOrbs.value.ToString() + " / " + sliderOrbs.maxValue.ToString() + "]";
             }
