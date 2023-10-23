@@ -38,6 +38,7 @@ public class Player : MonoBehaviour
             LookAtMouse();
 
             Move();
+
             if (nextBulletTime > 0)
             {
                 // Reducir el tiempo de cooldown
