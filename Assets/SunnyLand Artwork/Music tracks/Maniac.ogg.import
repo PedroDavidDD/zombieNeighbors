@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://ddlgegcicfviw"
+path="res://.godot/imported/Maniac.ogg-8d906ab0e688ca0e86ed6167010bcb62.oggvorbisstr"
+
+[deps]
+
+source_file="res://zombieNeighbors/Assets/SunnyLand Artwork/Music tracks/Maniac.ogg"
+dest_files=["res://.godot/imported/Maniac.ogg-8d906ab0e688ca0e86ed6167010bcb62.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
